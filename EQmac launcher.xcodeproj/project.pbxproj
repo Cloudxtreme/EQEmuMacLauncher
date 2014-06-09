@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD3CEDA19453FDA00266210 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD3CED919453FDA00266210 /* Cocoa.framework */; };
+		5CD3CEE419453FDA00266210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3CEE219453FDA00266210 /* InfoPlist.strings */; };
+		5CD3CEE619453FDA00266210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3CEE519453FDA00266210 /* main.m */; };
+		5CD3CEEA19453FDA00266210 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3CEE819453FDA00266210 /* Credits.rtf */; };
+		5CD3CEED19453FDA00266210 /* EQMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3CEEC19453FDA00266210 /* EQMacAppDelegate.m */; };
+		5CD3CEF019453FDA00266210 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3CEEE19453FDA00266210 /* MainMenu.xib */; };
+		5CD3CEF319453FDA00266210 /* EQmac_launcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3CEF119453FDA00266210 /* EQmac_launcher.xcdatamodeld */; };
+		5CD3CEF519453FDA00266210 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3CEF419453FDA00266210 /* Images.xcassets */; };
+		5CD3CEFC19453FDB00266210 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD3CEFB19453FDB00266210 /* XCTest.framework */; };
+		5CD3CEFD19453FDB00266210 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD3CED919453FDA00266210 /* Cocoa.framework */; };
+		5CD3CF0519453FDB00266210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3CF0319453FDB00266210 /* InfoPlist.strings */; };
+		5CD3CF0719453FDB00266210 /* EQmac_launcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3CF0619453FDB00266210 /* EQmac_launcherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CD3CEFE19453FDB00266210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CD3CECE19453FDA00266210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD3CED519453FDA00266210;
+			remoteInfo = "EQmac launcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CD3CED619453FDA00266210 /* EQmac launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EQmac launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD3CED919453FDA00266210 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5CD3CEDC19453FDA00266210 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5CD3CEDD19453FDA00266210 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CD3CEDE19453FDA00266210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CD3CEE119453FDA00266210 /* EQmac launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EQmac launcher-Info.plist"; sourceTree = "<group>"; };
+		5CD3CEE319453FDA00266210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CD3CEE519453FDA00266210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CD3CEE719453FDA00266210 /* EQmac launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EQmac launcher-Prefix.pch"; sourceTree = "<group>"; };
+		5CD3CEE919453FDA00266210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5CD3CEEB19453FDA00266210 /* EQMacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EQMacAppDelegate.h; sourceTree = "<group>"; };
+		5CD3CEEC19453FDA00266210 /* EQMacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EQMacAppDelegate.m; sourceTree = "<group>"; };
+		5CD3CEEF19453FDA00266210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5CD3CEF219453FDA00266210 /* EQmac_launcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EQmac_launcher.xcdatamodel; sourceTree = "<group>"; };
+		5CD3CEF419453FDA00266210 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CD3CEFA19453FDB00266210 /* EQmac launcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EQmac launcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD3CEFB19453FDB00266210 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CD3CF0219453FDB00266210 /* EQmac launcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EQmac launcherTests-Info.plist"; sourceTree = "<group>"; };
+		5CD3CF0419453FDB00266210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CD3CF0619453FDB00266210 /* EQmac_launcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EQmac_launcherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD3CED319453FDA00266210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3CEDA19453FDA00266210 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD3CEF719453FDB00266210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3CEFD19453FDB00266210 /* Cocoa.framework in Frameworks */,
+				5CD3CEFC19453FDB00266210 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD3CECD19453FDA00266210 = {
+			isa = PBXGroup;
+			children = (
+				5CD3CEDF19453FDA00266210 /* EQmac launcher */,
+				5CD3CF0019453FDB00266210 /* EQmac launcherTests */,
+				5CD3CED819453FDA00266210 /* Frameworks */,
+				5CD3CED719453FDA00266210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD3CED719453FDA00266210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3CED619453FDA00266210 /* EQmac launcher.app */,
+				5CD3CEFA19453FDB00266210 /* EQmac launcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD3CED819453FDA00266210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3CED919453FDA00266210 /* Cocoa.framework */,
+				5CD3CEFB19453FDB00266210 /* XCTest.framework */,
+				5CD3CEDB19453FDA00266210 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CD3CEDB19453FDA00266210 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3CEDC19453FDA00266210 /* AppKit.framework */,
+				5CD3CEDD19453FDA00266210 /* CoreData.framework */,
+				5CD3CEDE19453FDA00266210 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5CD3CEDF19453FDA00266210 /* EQmac launcher */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3CEEB19453FDA00266210 /* EQMacAppDelegate.h */,
+				5CD3CEEC19453FDA00266210 /* EQMacAppDelegate.m */,
+				5CD3CEEE19453FDA00266210 /* MainMenu.xib */,
+				5CD3CEF419453FDA00266210 /* Images.xcassets */,
+				5CD3CEF119453FDA00266210 /* EQmac_launcher.xcdatamodeld */,
+				5CD3CEE019453FDA00266210 /* Supporting Files */,
+			);
+			path = "EQmac launcher";
+			sourceTree = "<group>";
+		};
+		5CD3CEE019453FDA00266210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3CEE119453FDA00266210 /* EQmac launcher-Info.plist */,
+				5CD3CEE219453FDA00266210 /* InfoPlist.strings */,
+				5CD3CEE519453FDA00266210 /* main.m */,
+				5CD3CEE719453FDA00266210 /* EQmac launcher-Prefix.pch */,
+				5CD3CEE819453FDA00266210 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CD3CF0019453FDB00266210 /* EQmac launcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3CF0619453FDB00266210 /* EQmac_launcherTests.m */,
+				5CD3CF0119453FDB00266210 /* Supporting Files */,
+			);
+			path = "EQmac launcherTests";
+			sourceTree = "<group>";
+		};
+		5CD3CF0119453FDB00266210 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3CF0219453FDB00266210 /* EQmac launcherTests-Info.plist */,
+				5CD3CF0319453FDB00266210 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD3CED519453FDA00266210 /* EQmac launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD3CF0A19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQmac launcher" */;
+			buildPhases = (
+				5CD3CED219453FDA00266210 /* Sources */,
+				5CD3CED319453FDA00266210 /* Frameworks */,
+				5CD3CED419453FDA00266210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EQmac launcher";
+			productName = "EQmac launcher";
+			productReference = 5CD3CED619453FDA00266210 /* EQmac launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CD3CEF919453FDB00266210 /* EQmac launcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD3CF0D19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQmac launcherTests" */;
+			buildPhases = (
+				5CD3CEF619453FDB00266210 /* Sources */,
+				5CD3CEF719453FDB00266210 /* Frameworks */,
+				5CD3CEF819453FDB00266210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CD3CEFF19453FDB00266210 /* PBXTargetDependency */,
+			);
+			name = "EQmac launcherTests";
+			productName = "EQmac launcherTests";
+			productReference = 5CD3CEFA19453FDB00266210 /* EQmac launcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD3CECE19453FDA00266210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EQMac;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Scott Davis";
+				TargetAttributes = {
+					5CD3CEF919453FDB00266210 = {
+						TestTargetID = 5CD3CED519453FDA00266210;
+					};
+				};
+			};
+			buildConfigurationList = 5CD3CED119453FDA00266210 /* Build configuration list for PBXProject "EQmac launcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD3CECD19453FDA00266210;
+			productRefGroup = 5CD3CED719453FDA00266210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD3CED519453FDA00266210 /* EQmac launcher */,
+				5CD3CEF919453FDB00266210 /* EQmac launcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD3CED419453FDA00266210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3CEE419453FDA00266210 /* InfoPlist.strings in Resources */,
+				5CD3CEF519453FDA00266210 /* Images.xcassets in Resources */,
+				5CD3CEEA19453FDA00266210 /* Credits.rtf in Resources */,
+				5CD3CEF019453FDA00266210 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD3CEF819453FDB00266210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3CF0519453FDB00266210 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD3CED219453FDA00266210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3CEF319453FDA00266210 /* EQmac_launcher.xcdatamodeld in Sources */,
+				5CD3CEED19453FDA00266210 /* EQMacAppDelegate.m in Sources */,
+				5CD3CEE619453FDA00266210 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD3CEF619453FDB00266210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3CF0719453FDB00266210 /* EQmac_launcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CD3CEFF19453FDB00266210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CD3CED519453FDA00266210 /* EQmac launcher */;
+			targetProxy = 5CD3CEFE19453FDB00266210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CD3CEE219453FDA00266210 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD3CEE319453FDA00266210 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CD3CEE819453FDA00266210 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD3CEE919453FDA00266210 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5CD3CEEE19453FDA00266210 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD3CEEF19453FDA00266210 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5CD3CF0319453FDB00266210 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD3CF0419453FDB00266210 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CD3CF0819453FDB00266210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CD3CF0919453FDB00266210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CD3CF0B19453FDB00266210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EQmac launcher/EQmac launcher-Prefix.pch";
+				INFOPLIST_FILE = "EQmac launcher/EQmac launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CD3CF0C19453FDB00266210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EQmac launcher/EQmac launcher-Prefix.pch";
+				INFOPLIST_FILE = "EQmac launcher/EQmac launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CD3CF0E19453FDB00266210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EQmac launcher.app/Contents/MacOS/EQmac launcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EQmac launcher/EQmac launcher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EQmac launcherTests/EQmac launcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CD3CF0F19453FDB00266210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EQmac launcher.app/Contents/MacOS/EQmac launcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EQmac launcher/EQmac launcher-Prefix.pch";
+				INFOPLIST_FILE = "EQmac launcherTests/EQmac launcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD3CED119453FDA00266210 /* Build configuration list for PBXProject "EQmac launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD3CF0819453FDB00266210 /* Debug */,
+				5CD3CF0919453FDB00266210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD3CF0A19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQmac launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD3CF0B19453FDB00266210 /* Debug */,
+				5CD3CF0C19453FDB00266210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CD3CF0D19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQmac launcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD3CF0E19453FDB00266210 /* Debug */,
+				5CD3CF0F19453FDB00266210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5CD3CEF119453FDA00266210 /* EQmac_launcher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5CD3CEF219453FDA00266210 /* EQmac_launcher.xcdatamodel */,
+			);
+			currentVersion = 5CD3CEF219453FDA00266210 /* EQmac_launcher.xcdatamodel */;
+			path = EQmac_launcher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5CD3CECE19453FDA00266210 /* Project object */;
+}

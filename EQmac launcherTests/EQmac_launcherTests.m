@@ -1,0 +1,34 @@
+//
+//  EQmac_launcherTests.m
+//  EQmac launcherTests
+//
+//  Created by Scott Davis on 6/8/14.
+//  Copyright (c) 2014 Scott Davis. All rights reserved.
+//
+
+#import <XCTest/XCTest.h>
+
+@interface EQmac_launcherTests : XCTestCase
+
+@end
+
+@implementation EQmac_launcherTests
+
+- (void)setUp
+{
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)tearDown
+{
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testExample
+{
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+@end
