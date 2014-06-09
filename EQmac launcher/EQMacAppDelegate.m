@@ -14,14 +14,53 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize managedObjectContext = _managedObjectContext;
 
+@synthesize playButton;
+@synthesize tableView;
+@synthesize arrayController;
+NSString * const EQAPPFOLDER = @"/EverQuest Mac.app/Contents/MacOS";
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+
 }
 
+-(IBAction)removeSelected:(id)sender
+{
+    NSInteger selectedIndex = [tableView selectedRow];
+    [arrayController removeObjectAtArrangedObjectIndex:selectedIndex];
+}
+
+-(IBAction)playGame:(id)sender
+{
+    NSInteger selectedIndex = [tableView selectedRow];
+    NSArray *loginSelections = [arrayController arrangedObjects];
+    Login *loginObject = [loginSelections objectAtIndex:selectedIndex];
+    
+    NSString *username = loginObject.username;
+    NSString *password = loginObject.password;
+
+
+    NSString *login = [NSString stringWithFormat:@"/ticket:%@/%@", username, password];
+    
+    NSLog(@"Login: %@", login);
+
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationDirectory, NSSystemDomainMask, YES);
+    NSString *applicationDirectory = [paths objectAtIndex:0];
+    NSString *eqDir = [applicationDirectory stringByAppendingString:EQAPPFOLDER];
+    
+    NSTask *t = [[NSTask alloc] init];
+    [t setCurrentDirectoryPath: eqDir];
+    NSString *eqCmd = [NSString stringWithFormat:@"%@/Everquest", eqDir];
+    [t setLaunchPath:eqCmd];
+    [t setArguments:[NSArray arrayWithObjects:@"patchme", login, nil]];
+    [t launch];
+    
+}
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "me.EQmac_launcher" in the user's Application Support directory.
 - (NSURL *)applicationFilesDirectory
 {
+
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSURL *appSupportURL = [[fileManager URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask] lastObject];
     return [appSupportURL URLByAppendingPathComponent:@"me.EQmac_launcher"];

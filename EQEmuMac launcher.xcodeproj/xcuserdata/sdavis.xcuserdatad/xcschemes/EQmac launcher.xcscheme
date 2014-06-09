@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CD3CED519453FDA00266210"
                BuildableName = "EQmac launcher.app"
-               BlueprintName = "EQmac launcher"
-               ReferencedContainer = "container:EQmac launcher.xcodeproj">
+               BlueprintName = "EQEmuMac launcher"
+               ReferencedContainer = "container:EQEmuMac launcher.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CD3CEF919453FDB00266210"
                BuildableName = "EQmac launcherTests.xctest"
-               BlueprintName = "EQmac launcherTests"
-               ReferencedContainer = "container:EQmac launcher.xcodeproj">
+               BlueprintName = "EQEmuMac launcherTests"
+               ReferencedContainer = "container:EQEmuMac launcher.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CD3CED519453FDA00266210"
             BuildableName = "EQmac launcher.app"
-            BlueprintName = "EQmac launcher"
-            ReferencedContainer = "container:EQmac launcher.xcodeproj">
+            BlueprintName = "EQEmuMac launcher"
+            ReferencedContainer = "container:EQEmuMac launcher.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CD3CED519453FDA00266210"
             BuildableName = "EQmac launcher.app"
-            BlueprintName = "EQmac launcher"
-            ReferencedContainer = "container:EQmac launcher.xcodeproj">
+            BlueprintName = "EQEmuMac launcher"
+            ReferencedContainer = "container:EQEmuMac launcher.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CD3CED519453FDA00266210"
             BuildableName = "EQmac launcher.app"
-            BlueprintName = "EQmac launcher"
-            ReferencedContainer = "container:EQmac launcher.xcodeproj">
+            BlueprintName = "EQEmuMac launcher"
+            ReferencedContainer = "container:EQEmuMac launcher.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EQmac launcher.xcodeproj">
+      location = "self:EQEmuMac launcher.xcodeproj">
    </FileRef>
 </Workspace>

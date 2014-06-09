@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Login.h"
 
 @interface EQMacAppDelegate : NSObject <NSApplicationDelegate>
 
@@ -14,8 +15,14 @@
 
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (readonly, strong, nonatomic) IBOutlet NSManagedObjectContext *managedObjectContext;
+
+@property (nonatomic, retain, strong) IBOutlet NSButton *playButton;
+@property (nonatomic, retain, strong) IBOutlet NSTableView *tableView;
+@property (nonatomic, retain, strong) IBOutlet NSArrayController *arrayController;
 
 - (IBAction)saveAction:(id)sender;
+- (IBAction)removeSelected:(id)sender;
+- (IBAction)playGame:(id)sender;
 
 @end

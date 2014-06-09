@@ -19,6 +19,7 @@
 		5CD3CEFD19453FDB00266210 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD3CED919453FDA00266210 /* Cocoa.framework */; };
 		5CD3CF0519453FDB00266210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3CF0319453FDB00266210 /* InfoPlist.strings */; };
 		5CD3CF0719453FDB00266210 /* EQmac_launcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3CF0619453FDB00266210 /* EQmac_launcherTests.m */; };
+		5CD3CF121945552500266210 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3CF111945552500266210 /* Login.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,26 +33,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5CD3CED619453FDA00266210 /* EQmac launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EQmac launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD3CED619453FDA00266210 /* EQEmuMac launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EQEmuMac launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD3CED919453FDA00266210 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5CD3CEDC19453FDA00266210 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5CD3CEDD19453FDA00266210 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5CD3CEDE19453FDA00266210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5CD3CEE119453FDA00266210 /* EQmac launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EQmac launcher-Info.plist"; sourceTree = "<group>"; };
+		5CD3CEE119453FDA00266210 /* EQEmuMac launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EQEmuMac launcher-Info.plist"; sourceTree = "<group>"; };
 		5CD3CEE319453FDA00266210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CD3CEE519453FDA00266210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5CD3CEE719453FDA00266210 /* EQmac launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EQmac launcher-Prefix.pch"; sourceTree = "<group>"; };
+		5CD3CEE719453FDA00266210 /* EQEmuMac launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EQEmuMac launcher-Prefix.pch"; sourceTree = "<group>"; };
 		5CD3CEE919453FDA00266210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5CD3CEEB19453FDA00266210 /* EQMacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EQMacAppDelegate.h; sourceTree = "<group>"; };
 		5CD3CEEC19453FDA00266210 /* EQMacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EQMacAppDelegate.m; sourceTree = "<group>"; };
 		5CD3CEEF19453FDA00266210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5CD3CEF219453FDA00266210 /* EQmac_launcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EQmac_launcher.xcdatamodel; sourceTree = "<group>"; };
 		5CD3CEF419453FDA00266210 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5CD3CEFA19453FDB00266210 /* EQmac launcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EQmac launcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD3CEFA19453FDB00266210 /* EQEmuMac launcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EQEmuMac launcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD3CEFB19453FDB00266210 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5CD3CF0219453FDB00266210 /* EQmac launcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EQmac launcherTests-Info.plist"; sourceTree = "<group>"; };
+		5CD3CF0219453FDB00266210 /* EQEmuMac launcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EQEmuMac launcherTests-Info.plist"; sourceTree = "<group>"; };
 		5CD3CF0419453FDB00266210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CD3CF0619453FDB00266210 /* EQmac_launcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EQmac_launcherTests.m; sourceTree = "<group>"; };
+		5CD3CF101945552500266210 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		5CD3CF111945552500266210 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +91,8 @@
 		5CD3CED719453FDA00266210 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CD3CED619453FDA00266210 /* EQmac launcher.app */,
-				5CD3CEFA19453FDB00266210 /* EQmac launcherTests.xctest */,
+				5CD3CED619453FDA00266210 /* EQEmuMac launcher.app */,
+				5CD3CEFA19453FDB00266210 /* EQEmuMac launcherTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +125,8 @@
 				5CD3CEEE19453FDA00266210 /* MainMenu.xib */,
 				5CD3CEF419453FDA00266210 /* Images.xcassets */,
 				5CD3CEF119453FDA00266210 /* EQmac_launcher.xcdatamodeld */,
+				5CD3CF101945552500266210 /* Login.h */,
+				5CD3CF111945552500266210 /* Login.m */,
 				5CD3CEE019453FDA00266210 /* Supporting Files */,
 			);
 			path = "EQmac launcher";
@@ -130,10 +135,10 @@
 		5CD3CEE019453FDA00266210 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5CD3CEE119453FDA00266210 /* EQmac launcher-Info.plist */,
+				5CD3CEE119453FDA00266210 /* EQEmuMac launcher-Info.plist */,
 				5CD3CEE219453FDA00266210 /* InfoPlist.strings */,
 				5CD3CEE519453FDA00266210 /* main.m */,
-				5CD3CEE719453FDA00266210 /* EQmac launcher-Prefix.pch */,
+				5CD3CEE719453FDA00266210 /* EQEmuMac launcher-Prefix.pch */,
 				5CD3CEE819453FDA00266210 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -151,7 +156,7 @@
 		5CD3CF0119453FDB00266210 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5CD3CF0219453FDB00266210 /* EQmac launcherTests-Info.plist */,
+				5CD3CF0219453FDB00266210 /* EQEmuMac launcherTests-Info.plist */,
 				5CD3CF0319453FDB00266210 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -160,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5CD3CED519453FDA00266210 /* EQmac launcher */ = {
+		5CD3CED519453FDA00266210 /* EQEmuMac launcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CD3CF0A19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQmac launcher" */;
+			buildConfigurationList = 5CD3CF0A19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQEmuMac launcher" */;
 			buildPhases = (
 				5CD3CED219453FDA00266210 /* Sources */,
 				5CD3CED319453FDA00266210 /* Frameworks */,
@@ -172,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = "EQmac launcher";
+			name = "EQEmuMac launcher";
 			productName = "EQmac launcher";
-			productReference = 5CD3CED619453FDA00266210 /* EQmac launcher.app */;
+			productReference = 5CD3CED619453FDA00266210 /* EQEmuMac launcher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5CD3CEF919453FDB00266210 /* EQmac launcherTests */ = {
+		5CD3CEF919453FDB00266210 /* EQEmuMac launcherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CD3CF0D19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQmac launcherTests" */;
+			buildConfigurationList = 5CD3CF0D19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQEmuMac launcherTests" */;
 			buildPhases = (
 				5CD3CEF619453FDB00266210 /* Sources */,
 				5CD3CEF719453FDB00266210 /* Frameworks */,
@@ -190,9 +195,9 @@
 			dependencies = (
 				5CD3CEFF19453FDB00266210 /* PBXTargetDependency */,
 			);
-			name = "EQmac launcherTests";
+			name = "EQEmuMac launcherTests";
 			productName = "EQmac launcherTests";
-			productReference = 5CD3CEFA19453FDB00266210 /* EQmac launcherTests.xctest */;
+			productReference = 5CD3CEFA19453FDB00266210 /* EQEmuMac launcherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5CD3CED119453FDA00266210 /* Build configuration list for PBXProject "EQmac launcher" */;
+			buildConfigurationList = 5CD3CED119453FDA00266210 /* Build configuration list for PBXProject "EQEmuMac launcher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5CD3CED519453FDA00266210 /* EQmac launcher */,
-				5CD3CEF919453FDB00266210 /* EQmac launcherTests */,
+				5CD3CED519453FDA00266210 /* EQEmuMac launcher */,
+				5CD3CEF919453FDB00266210 /* EQEmuMac launcherTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +264,7 @@
 				5CD3CEF319453FDA00266210 /* EQmac_launcher.xcdatamodeld in Sources */,
 				5CD3CEED19453FDA00266210 /* EQMacAppDelegate.m in Sources */,
 				5CD3CEE619453FDA00266210 /* main.m in Sources */,
+				5CD3CF121945552500266210 /* Login.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +281,7 @@
 /* Begin PBXTargetDependency section */
 		5CD3CEFF19453FDB00266210 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5CD3CED519453FDA00266210 /* EQmac launcher */;
+			target = 5CD3CED519453FDA00266210 /* EQEmuMac launcher */;
 			targetProxy = 5CD3CEFE19453FDB00266210 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,9 +396,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EQmac launcher/EQmac launcher-Prefix.pch";
-				INFOPLIST_FILE = "EQmac launcher/EQmac launcher-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "EQmac launcher/EQEmuMac launcher-Prefix.pch";
+				INFOPLIST_FILE = "EQmac launcher/EQEmuMac launcher-Info.plist";
+				PRODUCT_NAME = "EQEmuMac launcher";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,9 +409,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "EQmac launcher/EQmac launcher-Prefix.pch";
-				INFOPLIST_FILE = "EQmac launcher/EQmac launcher-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "EQmac launcher/EQEmuMac launcher-Prefix.pch";
+				INFOPLIST_FILE = "EQmac launcher/EQEmuMac launcher-Info.plist";
+				PRODUCT_NAME = "EQEmuMac launcher";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -425,8 +431,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "EQmac launcherTests/EQmac launcherTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "EQmac launcherTests/EQEmuMac launcherTests-Info.plist";
+				PRODUCT_NAME = "EQEmuMac launcherTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -443,8 +449,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EQmac launcher/EQmac launcher-Prefix.pch";
-				INFOPLIST_FILE = "EQmac launcherTests/EQmac launcherTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "EQmac launcherTests/EQEmuMac launcherTests-Info.plist";
+				PRODUCT_NAME = "EQEmuMac launcherTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -453,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CD3CED119453FDA00266210 /* Build configuration list for PBXProject "EQmac launcher" */ = {
+		5CD3CED119453FDA00266210 /* Build configuration list for PBXProject "EQEmuMac launcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CD3CF0819453FDB00266210 /* Debug */,
@@ -462,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CD3CF0A19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQmac launcher" */ = {
+		5CD3CF0A19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQEmuMac launcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CD3CF0B19453FDB00266210 /* Debug */,
@@ -470,7 +476,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5CD3CF0D19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQmac launcherTests" */ = {
+		5CD3CF0D19453FDB00266210 /* Build configuration list for PBXNativeTarget "EQEmuMac launcherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CD3CF0E19453FDB00266210 /* Debug */,
