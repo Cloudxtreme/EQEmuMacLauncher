@@ -23,6 +23,7 @@ NSString * const EQAPPFOLDER = @"/EverQuest Mac.app/Contents/MacOS";
 {
     // Insert code here to initialize your application
 
+
 }
 
 -(IBAction)removeSelected:(id)sender
@@ -55,7 +56,27 @@ NSString * const EQAPPFOLDER = @"/EverQuest Mac.app/Contents/MacOS";
     [t setLaunchPath:eqCmd];
     [t setArguments:[NSArray arrayWithObjects:@"patchme", login, nil]];
     [t launch];
+    NSLog(@"PRocessid: %d", [t processIdentifier]);
     
+    [NSTimer scheduledTimerWithTimeInterval:12 target:self selector:@selector(activateEqWindow:) userInfo:t repeats:NO];
+}
+- (void) activateEqWindow:(NSTimer*)timer
+{
+    NSTask *task = timer.userInfo;
+    NSWorkspace *workspace = [NSWorkspace sharedWorkspace];
+     for(int i=0; i < [[workspace runningApplications] count]; i++){
+         NSRunningApplication *app = [[workspace runningApplications] objectAtIndex:i];
+         if ([app processIdentifier] == [task processIdentifier]) {
+             NSLog(@"ACTIVATE");
+             [[NSApplication sharedApplication] hide:self];
+             if([app activateWithOptions:NSApplicationActivateIgnoringOtherApps])
+             {
+                 NSLog(@"couldn't activate eq: %d", app.activationPolicy);
+             }
+             [app unhide];
+         }
+     }
+
 }
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "me.EQmac_launcher" in the user's Application Support directory.
 - (NSURL *)applicationFilesDirectory
