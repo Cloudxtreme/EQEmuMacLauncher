@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86CEEE40-253E-4477-9B31-6FA2BD29ABEE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EQEmuMac launcher</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>40D5974E-301C-4892-B6D4-76FC21D52E03</key>
+		<string>ssh://github.com/scottdavis/EQEmuMacLauncher.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EQEmuMac launcher.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>40D5974E-301C-4892-B6D4-76FC21D52E03</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/scottdavis/EQEmuMacLauncher.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>40D5974E-301C-4892-B6D4-76FC21D52E03</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>40D5974E-301C-4892-B6D4-76FC21D52E03</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EQmac launcher</string>
+		</dict>
+	</array>
+</dict>
+</plist>
